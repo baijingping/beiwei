@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的圈子"
+        android:id="@+id/circle_title"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/circle_delect"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/common_btn_delete_n_xxhdpi"
+        android:layout_alignParentRight="true" />
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle_title"
+        android:id="@+id/my_circle_main"
+        android:layout_marginTop="20dp">
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+</RelativeLayout>

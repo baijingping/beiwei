@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="soexample.umeng.com.beiwei">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegistActivity" />
+        <activity android:name=".activity.MyActivity" />
+        <activity android:name=".activity.DataActivity" />
+        <activity android:name=".activity.FootPrintActivity" />
+        <activity android:name=".activity.WalletActivity" />
+        <activity android:name=".activity.AddressActivity" />
+        <activity android:name=".activity.ModifyNameActivity" />
+        <activity android:name=".activity.RxxpActivity" />
+        <activity android:name=".activity.MissActivity" />
+        <activity android:name=".activity.PzshActivity" />
+        <activity android:name=".activity.MyCircleActivity" />
+        <activity android:name=".activity.ShowProductActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.NewAddressActivity" />
+        <activity android:name=".activity.ReceiveAddressActivity" />
+        <activity android:name=".activity.ModifyPassWordActivity" />
+        <activity android:name=".activity.WebViewActivity" />
+        <activity android:name=".activity.ProductCategoryActivity"></activity>
+    </application>
+
+</manifest>

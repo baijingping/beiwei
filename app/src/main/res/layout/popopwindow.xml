@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pop_album"
+        android:text="从相册中选择"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="去拍照"
+        android:id="@+id/pop_pictures"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="取消"
+        android:id="@+id/pop_cancel"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+</LinearLayout>
